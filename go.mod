@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/gopacket/gopacket v1.5.0
 	github.com/inspektor-gadget/inspektor-gadget v0.48.0
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 )
 
 require (
