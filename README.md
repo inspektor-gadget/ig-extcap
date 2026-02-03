@@ -3,7 +3,7 @@
 Wireshark extcap provider for connecting to the [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget)
 [tcpdump gadget](https://inspektor-gadget.io/docs/latest/gadgets/tcpdump).
 
-This requires a running installation of Inspektor Gadget either as Kubernetes Daemonset or in daemon mode (using
+This requires a running installation of Inspektor Gadget (>=v0.47) either as Kubernetes Daemonset or in daemon mode (using
 `ig daemon`).
 
 ## Installation
