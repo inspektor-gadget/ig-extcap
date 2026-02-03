@@ -127,7 +127,9 @@ func main() {
 			if payloadField == nil {
 				return fmt.Errorf("%s annotation not found", clioperator.AnnotationPCAPPayload)
 			}
-			timestampField := ds.GetField(ds.Annotations()[clioperator.AnnotationPCAPTimestamp])
+
+			// We need the raw timestamp, not the converted one; hardcoded for now
+			timestampField := ds.GetField("timestamp_raw")
 			if timestampField == nil {
 				return fmt.Errorf("timestamp field not found")
 			}
@@ -238,7 +240,7 @@ func main() {
 				}
 
 				err = wr.WritePacketWithOptions(gopacket.CaptureInfo{
-					Timestamp:      time.Unix(0, int64(time.Duration(ts)*time.Microsecond)),
+					Timestamp:      time.Unix(0, int64(time.Duration(ts))),
 					InterfaceIndex: pcapInterface,
 					CaptureLength:  len(payload),
 					Length:         int(length),
