@@ -166,8 +166,8 @@ github.com/in-toto/attestation v1.1.2 h1:MBFn6lsMq6dptQZJBhalXTcWMb/aJy3V+GX3VYj
 github.com/in-toto/attestation v1.1.2/go.mod h1:gYFddHMZj3DiQ0b62ltNi1Vj5rC879bTmBbrv9CRHpM=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
-github.com/inspektor-gadget/inspektor-gadget v0.49.0 h1:Y4Nh1lXLzqas6azWizGZ3bSISMibd4K314D4NhAGIIY=
-github.com/inspektor-gadget/inspektor-gadget v0.49.0/go.mod h1:OXReDl3CtxXpL+pmId8KtEmevzWrPEV4l8CfDK8IhVI=
+github.com/inspektor-gadget/inspektor-gadget v0.49.1 h1:9xIDrgh70RbXyBeHoXuNwAm1ioiNcm70MScvVZtDQiU=
+github.com/inspektor-gadget/inspektor-gadget v0.49.1/go.mod h1:OXReDl3CtxXpL+pmId8KtEmevzWrPEV4l8CfDK8IhVI=
 github.com/jcmturner/aescts/v2 v2.0.0 h1:9YKLH6ey7H4eDBXW8khjYslgyqG2xZikXP0EQFKrle8=
 github.com/jcmturner/aescts/v2 v2.0.0/go.mod h1:AiaICIRyfYg35RUkr8yESTqvSy7csK90qZ5xfvvsoNs=
 github.com/jcmturner/dnsutils/v2 v2.0.0 h1:lltnkeZGL0wILNvrNiVCR6Ro5PGU/SeBvVO/8c/iPbo=
