@@ -3,7 +3,7 @@ module github.com/flyth/ig-extcap
 go 1.25.0
 
 require (
-	github.com/gopacket/gopacket v1.5.0
+	github.com/gopacket/gopacket v1.6.1
 	github.com/inspektor-gadget/inspektor-gadget v0.50.1
 	github.com/sirupsen/logrus v1.9.4
 )
